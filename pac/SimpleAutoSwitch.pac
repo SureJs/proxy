@@ -15,6 +15,7 @@ var FindProxyForURL = function(init, profiles) {
         if (/(?:^|\.)youtube-nocookie\.com$/.test(host)) return "+LanternProxy";
         if (/google/.test(host)) return "+LanternProxy";
         if (/(?:^|\.)goo\.gl$/.test(host)) return "+LanternProxy";
+        if (/(?:^|\.)ggpht\.com$/.test(host)) return "+LanternProxy";
         if (/(?:^|\.)feedburner\.com$/.test(host)) return "+LanternProxy";
         if (/(?:^|\.)gstatic\.com$/.test(host)) return "+LanternProxy";
         if (/(?:^|\.)ytimg\.com$/.test(host)) return "+LanternProxy";
