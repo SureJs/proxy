@@ -24,6 +24,7 @@ var FindProxyForURL = function(init, profiles) {
         if (/(?:^|\.)ads-twitter\.com$/.test(host)) return "+LanternProxy";
         if (/(?:^|\.)facebook\.com$/.test(host)) return "+LanternProxy";
         if (/(?:^|\.)facebook\.net$/.test(host)) return "+LanternProxy";
+        if (/(?:^|\.)fbcdn\.net$/.test(host)) return "+LanternProxy";
         if (/(?:^|\.)instagram\.com$/.test(host)) return "+LanternProxy";
         if (/(?:^|\.)getlantern\.org$/.test(host)) return "+LanternProxy";
         if (/(?:^|\.)lantern\.io$/.test(host)) return "+LanternProxy";
