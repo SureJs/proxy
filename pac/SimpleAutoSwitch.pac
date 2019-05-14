@@ -20,8 +20,10 @@ var FindProxyForURL = function(init, profiles) {
         if (/(?:^|\.)gstatic\.com$/.test(host)) return "+LanternProxy";
         if (/(?:^|\.)ytimg\.com$/.test(host)) return "+LanternProxy";
         if (/(?:^|\.)twitter\.com$/.test(host)) return "+LanternProxy";
+        if (/(?:^|\.)twimg\.com$/.test(host)) return "+LanternProxy";
         if (/(?:^|\.)t\.co$/.test(host)) return "+LanternProxy";
         if (/(?:^|\.)ads-twitter\.com$/.test(host)) return "+LanternProxy";
+        if (/(?:^|\.)twitterfeedback\.com$/.test(host)) return "+LanternProxy";
         if (/(?:^|\.)facebook\.com$/.test(host)) return "+LanternProxy";
         if (/(?:^|\.)facebook\.net$/.test(host)) return "+LanternProxy";
         if (/(?:^|\.)fbcdn\.net$/.test(host)) return "+LanternProxy";
