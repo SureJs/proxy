@@ -33,7 +33,6 @@ var FindProxyForURL = function(init, profiles) {
         if (/(?:^|\.)lantern\.io$/.test(host)) return "+LanternProxy";
         if (/(?:^|\.)wikipedia\.org$/.test(host)) return "+LanternProxy";
         if (/(?:^|\.)shadowsocks\.org$/.test(host)) return "+LanternProxy";
-        if (/(?:^|\.)github\.com$/.test(host)) return "+LanternProxy";        
         return "DIRECT";
     },
     "+LanternProxy": function(url, host, scheme) {
